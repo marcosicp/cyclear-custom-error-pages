@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "TCB_____";
+    src: url(./fonts/TCB_____.TTF) format("truetype");
+    font-weight: normal;
+  }
+
+
+  .contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  body {
+      background-color: #3b4a94;
+      font-family: TCB_____;
+      max-height: 100vh;
+  }
+
+  img {
+      margin: 30px;
+      width: 700px;
+      max-width: 95%;
+      border-radius: 30px;
+  }
+
+  p {
+      font-size: 30px;
+      text-align: center;
+      color: #debb39;
+      text-transform: uppercase;
+  }
+
+  a {
+    width: 6rem;
+    height: 6rem;
+}
+
+a:hover {
+    width: 7rem;
+    height: 7rem;
+}
